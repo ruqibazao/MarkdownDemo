@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D43658216DE93700D42DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D43657216DE93700D42DED /* AppDelegate.m */; };
+		80D4365B216DE93700D42DED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4365A216DE93700D42DED /* ViewController.m */; };
+		80D4365E216DE93700D42DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D4365C216DE93700D42DED /* Main.storyboard */; };
+		80D43660216DE93900D42DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D4365F216DE93900D42DED /* Assets.xcassets */; };
+		80D43663216DE93900D42DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D43661216DE93900D42DED /* LaunchScreen.storyboard */; };
+		80D43666216DE93900D42DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D43665216DE93900D42DED /* main.m */; };
+		80D43670216DE93A00D42DED /* BKMarkdownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4366F216DE93A00D42DED /* BKMarkdownDemoTests.m */; };
+		80D4367B216DE93A00D42DED /* BKMarkdownDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4367A216DE93A00D42DED /* BKMarkdownDemoUITests.m */; };
+		80D438B3216DF93400D42DED /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4389D216DF93400D42DED /* MarkdownView.swift */; };
+		80D438D7216DF99000D42DED /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 80D438C6216DF99000D42DED /* index.html */; };
+		80D438D8216DF99000D42DED /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 80D438C7216DF99000D42DED /* main.css */; };
+		80D438D9216DF99000D42DED /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 80D438C8216DF99000D42DED /* main.js */; };
+		80D438DA216DF99000D42DED /* webpack.config.js in Resources */ = {isa = PBXBuildFile; fileRef = 80D438C9216DF99000D42DED /* webpack.config.js */; };
+		80D438DB216DF99000D42DED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 80D438CA216DF99000D42DED /* README.md */; };
+		80D438DC216DF99000D42DED /* yarn.lock in Resources */ = {isa = PBXBuildFile; fileRef = 80D438CB216DF99000D42DED /* yarn.lock */; };
+		80D438DE216DF99000D42DED /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 80D438CD216DF99000D42DED /* package.json */; };
+		80D438DF216DF99000D42DED /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = 80D438D0216DF99000D42DED /* github.css */; };
+		80D438E0216DF99000D42DED /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 80D438D1216DF99000D42DED /* bootstrap.css */; };
+		80D438E1216DF99000D42DED /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 80D438D2216DF99000D42DED /* index.css */; };
+		80D438E2216DF99000D42DED /* gist.css in Resources */ = {isa = PBXBuildFile; fileRef = 80D438D3216DF99000D42DED /* gist.css */; };
+		80D438E3216DF99000D42DED /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 80D438D5216DF99000D42DED /* index.js */; };
+		80D438E5216DFBC000D42DED /* 穿越318线川藏游记.md in Resources */ = {isa = PBXBuildFile; fileRef = 80D438E4216DFBC000D42DED /* 穿越318线川藏游记.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D4366C216DE93A00D42DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D4364B216DE93700D42DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D43652216DE93700D42DED;
+			remoteInfo = BKMarkdownDemo;
+		};
+		80D43677216DE93A00D42DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D4364B216DE93700D42DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D43652216DE93700D42DED;
+			remoteInfo = BKMarkdownDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80D436A7216DE94B00D42DED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80D43653216DE93700D42DED /* BKMarkdownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKMarkdownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D43656216DE93700D42DED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80D43657216DE93700D42DED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80D43659216DE93700D42DED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80D4365A216DE93700D42DED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80D4365D216DE93700D42DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D4365F216DE93900D42DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D43662216DE93900D42DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D43664216DE93900D42DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D43665216DE93900D42DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80D4366B216DE93A00D42DED /* BKMarkdownDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMarkdownDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D4366F216DE93A00D42DED /* BKMarkdownDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMarkdownDemoTests.m; sourceTree = "<group>"; };
+		80D43671216DE93A00D42DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D43676216DE93A00D42DED /* BKMarkdownDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMarkdownDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D4367A216DE93A00D42DED /* BKMarkdownDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMarkdownDemoUITests.m; sourceTree = "<group>"; };
+		80D4367C216DE93A00D42DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D4389D216DF93400D42DED /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		80D4389E216DF93400D42DED /* MarkdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownView.h; sourceTree = "<group>"; };
+		80D438C6216DF99000D42DED /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		80D438C7216DF99000D42DED /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		80D438C8216DF99000D42DED /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		80D438C9216DF99000D42DED /* webpack.config.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webpack.config.js; sourceTree = "<group>"; };
+		80D438CA216DF99000D42DED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		80D438CB216DF99000D42DED /* yarn.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yarn.lock; sourceTree = "<group>"; };
+		80D438CD216DF99000D42DED /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		80D438D0216DF99000D42DED /* github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
+		80D438D1216DF99000D42DED /* bootstrap.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
+		80D438D2216DF99000D42DED /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		80D438D3216DF99000D42DED /* gist.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = gist.css; sourceTree = "<group>"; };
+		80D438D5216DF99000D42DED /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		80D438E4216DFBC000D42DED /* 穿越318线川藏游记.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "穿越318线川藏游记.md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D43650216DE93700D42DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D43668216DE93900D42DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D43673216DE93A00D42DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D4364A216DE93700D42DED = {
+			isa = PBXGroup;
+			children = (
+				80D43655216DE93700D42DED /* BKMarkdownDemo */,
+				80D4366E216DE93A00D42DED /* BKMarkdownDemoTests */,
+				80D43679216DE93A00D42DED /* BKMarkdownDemoUITests */,
+				80D43654216DE93700D42DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D43654216DE93700D42DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D43653216DE93700D42DED /* BKMarkdownDemo.app */,
+				80D4366B216DE93A00D42DED /* BKMarkdownDemoTests.xctest */,
+				80D43676216DE93A00D42DED /* BKMarkdownDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D43655216DE93700D42DED /* BKMarkdownDemo */ = {
+			isa = PBXGroup;
+			children = (
+				80D43656216DE93700D42DED /* AppDelegate.h */,
+				80D43657216DE93700D42DED /* AppDelegate.m */,
+				80D43659216DE93700D42DED /* ViewController.h */,
+				80D4365A216DE93700D42DED /* ViewController.m */,
+				80D438E4216DFBC000D42DED /* 穿越318线川藏游记.md */,
+				80D438C3216DF99000D42DED /* webassets */,
+				80D4389C216DF93400D42DED /* MarkdownView */,
+				80D4365C216DE93700D42DED /* Main.storyboard */,
+				80D4365F216DE93900D42DED /* Assets.xcassets */,
+				80D43661216DE93900D42DED /* LaunchScreen.storyboard */,
+				80D43664216DE93900D42DED /* Info.plist */,
+				80D43665216DE93900D42DED /* main.m */,
+			);
+			path = BKMarkdownDemo;
+			sourceTree = "<group>";
+		};
+		80D4366E216DE93A00D42DED /* BKMarkdownDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D4366F216DE93A00D42DED /* BKMarkdownDemoTests.m */,
+				80D43671216DE93A00D42DED /* Info.plist */,
+			);
+			path = BKMarkdownDemoTests;
+			sourceTree = "<group>";
+		};
+		80D43679216DE93A00D42DED /* BKMarkdownDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80D4367A216DE93A00D42DED /* BKMarkdownDemoUITests.m */,
+				80D4367C216DE93A00D42DED /* Info.plist */,
+			);
+			path = BKMarkdownDemoUITests;
+			sourceTree = "<group>";
+		};
+		80D4389C216DF93400D42DED /* MarkdownView */ = {
+			isa = PBXGroup;
+			children = (
+				80D4389D216DF93400D42DED /* MarkdownView.swift */,
+				80D4389E216DF93400D42DED /* MarkdownView.h */,
+			);
+			path = MarkdownView;
+			sourceTree = "<group>";
+		};
+		80D438C3216DF99000D42DED /* webassets */ = {
+			isa = PBXGroup;
+			children = (
+				80D438C5216DF99000D42DED /* dist */,
+				80D438C9216DF99000D42DED /* webpack.config.js */,
+				80D438CA216DF99000D42DED /* README.md */,
+				80D438CB216DF99000D42DED /* yarn.lock */,
+				80D438CD216DF99000D42DED /* package.json */,
+				80D438CE216DF99000D42DED /* src */,
+			);
+			path = webassets;
+			sourceTree = "<group>";
+		};
+		80D438C5216DF99000D42DED /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				80D438C6216DF99000D42DED /* index.html */,
+				80D438C7216DF99000D42DED /* main.css */,
+				80D438C8216DF99000D42DED /* main.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		80D438CE216DF99000D42DED /* src */ = {
+			isa = PBXGroup;
+			children = (
+				80D438CF216DF99000D42DED /* css */,
+				80D438D4216DF99000D42DED /* js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		80D438CF216DF99000D42DED /* css */ = {
+			isa = PBXGroup;
+			children = (
+				80D438D0216DF99000D42DED /* github.css */,
+				80D438D1216DF99000D42DED /* bootstrap.css */,
+				80D438D2216DF99000D42DED /* index.css */,
+				80D438D3216DF99000D42DED /* gist.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		80D438D4216DF99000D42DED /* js */ = {
+			isa = PBXGroup;
+			children = (
+				80D438D5216DF99000D42DED /* index.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D43652216DE93700D42DED /* BKMarkdownDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D4367F216DE93A00D42DED /* Build configuration list for PBXNativeTarget "BKMarkdownDemo" */;
+			buildPhases = (
+				80D4364F216DE93700D42DED /* Sources */,
+				80D43650216DE93700D42DED /* Frameworks */,
+				80D43651216DE93700D42DED /* Resources */,
+				80D436A7216DE94B00D42DED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKMarkdownDemo;
+			productName = BKMarkdownDemo;
+			productReference = 80D43653216DE93700D42DED /* BKMarkdownDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D4366A216DE93900D42DED /* BKMarkdownDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D43682216DE93A00D42DED /* Build configuration list for PBXNativeTarget "BKMarkdownDemoTests" */;
+			buildPhases = (
+				80D43667216DE93900D42DED /* Sources */,
+				80D43668216DE93900D42DED /* Frameworks */,
+				80D43669216DE93900D42DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D4366D216DE93A00D42DED /* PBXTargetDependency */,
+			);
+			name = BKMarkdownDemoTests;
+			productName = BKMarkdownDemoTests;
+			productReference = 80D4366B216DE93A00D42DED /* BKMarkdownDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80D43675216DE93A00D42DED /* BKMarkdownDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D43685216DE93A00D42DED /* Build configuration list for PBXNativeTarget "BKMarkdownDemoUITests" */;
+			buildPhases = (
+				80D43672216DE93A00D42DED /* Sources */,
+				80D43673216DE93A00D42DED /* Frameworks */,
+				80D43674216DE93A00D42DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D43678216DE93A00D42DED /* PBXTargetDependency */,
+			);
+			name = BKMarkdownDemoUITests;
+			productName = BKMarkdownDemoUITests;
+			productReference = 80D43676216DE93A00D42DED /* BKMarkdownDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D4364B216DE93700D42DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = nenhall_studio;
+				TargetAttributes = {
+					80D43652216DE93700D42DED = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					80D4366A216DE93900D42DED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 80D43652216DE93700D42DED;
+					};
+					80D43675216DE93A00D42DED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 80D43652216DE93700D42DED;
+					};
+				};
+			};
+			buildConfigurationList = 80D4364E216DE93700D42DED /* Build configuration list for PBXProject "BKMarkdownDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D4364A216DE93700D42DED;
+			productRefGroup = 80D43654216DE93700D42DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D43652216DE93700D42DED /* BKMarkdownDemo */,
+				80D4366A216DE93900D42DED /* BKMarkdownDemoTests */,
+				80D43675216DE93A00D42DED /* BKMarkdownDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D43651216DE93700D42DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D438DC216DF99000D42DED /* yarn.lock in Resources */,
+				80D438D7216DF99000D42DED /* index.html in Resources */,
+				80D43663216DE93900D42DED /* LaunchScreen.storyboard in Resources */,
+				80D438D8216DF99000D42DED /* main.css in Resources */,
+				80D438E5216DFBC000D42DED /* 穿越318线川藏游记.md in Resources */,
+				80D438E2216DF99000D42DED /* gist.css in Resources */,
+				80D438E0216DF99000D42DED /* bootstrap.css in Resources */,
+				80D438D9216DF99000D42DED /* main.js in Resources */,
+				80D438DA216DF99000D42DED /* webpack.config.js in Resources */,
+				80D438DE216DF99000D42DED /* package.json in Resources */,
+				80D438DB216DF99000D42DED /* README.md in Resources */,
+				80D438E3216DF99000D42DED /* index.js in Resources */,
+				80D438E1216DF99000D42DED /* index.css in Resources */,
+				80D438DF216DF99000D42DED /* github.css in Resources */,
+				80D43660216DE93900D42DED /* Assets.xcassets in Resources */,
+				80D4365E216DE93700D42DED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D43669216DE93900D42DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D43674216DE93A00D42DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D4364F216DE93700D42DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D4365B216DE93700D42DED /* ViewController.m in Sources */,
+				80D43666216DE93900D42DED /* main.m in Sources */,
+				80D43658216DE93700D42DED /* AppDelegate.m in Sources */,
+				80D438B3216DF93400D42DED /* MarkdownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D43667216DE93900D42DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D43670216DE93A00D42DED /* BKMarkdownDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D43672216DE93A00D42DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D4367B216DE93A00D42DED /* BKMarkdownDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D4366D216DE93A00D42DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D43652216DE93700D42DED /* BKMarkdownDemo */;
+			targetProxy = 80D4366C216DE93A00D42DED /* PBXContainerItemProxy */;
+		};
+		80D43678216DE93A00D42DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D43652216DE93700D42DED /* BKMarkdownDemo */;
+			targetProxy = 80D43677216DE93A00D42DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D4365C216DE93700D42DED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D4365D216DE93700D42DED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D43661216DE93900D42DED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D43662216DE93900D42DED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D4367D216DE93A00D42DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80D4367E216DE93A00D42DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D43680216DE93A00D42DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = BKMarkdownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.BKMarkdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D43681216DE93A00D42DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = BKMarkdownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.BKMarkdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80D43683216DE93A00D42DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = BKMarkdownDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.BKMarkdownDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BKMarkdownDemo.app/BKMarkdownDemo";
+			};
+			name = Debug;
+		};
+		80D43684216DE93A00D42DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = BKMarkdownDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.BKMarkdownDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BKMarkdownDemo.app/BKMarkdownDemo";
+			};
+			name = Release;
+		};
+		80D43686216DE93A00D42DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = BKMarkdownDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.BKMarkdownDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BKMarkdownDemo;
+			};
+			name = Debug;
+		};
+		80D43687216DE93A00D42DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = BKMarkdownDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.BKMarkdownDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BKMarkdownDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D4364E216DE93700D42DED /* Build configuration list for PBXProject "BKMarkdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D4367D216DE93A00D42DED /* Debug */,
+				80D4367E216DE93A00D42DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D4367F216DE93A00D42DED /* Build configuration list for PBXNativeTarget "BKMarkdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D43680216DE93A00D42DED /* Debug */,
+				80D43681216DE93A00D42DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D43682216DE93A00D42DED /* Build configuration list for PBXNativeTarget "BKMarkdownDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D43683216DE93A00D42DED /* Debug */,
+				80D43684216DE93A00D42DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D43685216DE93A00D42DED /* Build configuration list for PBXNativeTarget "BKMarkdownDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D43686216DE93A00D42DED /* Debug */,
+				80D43687216DE93A00D42DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D4364B216DE93700D42DED /* Project object */;
+}
